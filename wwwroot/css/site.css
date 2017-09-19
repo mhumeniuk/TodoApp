@@ -1,0 +1,86 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background: #eff0f2;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.todo-item-name {
+    display: inline-block;
+    width: 90%;
+    cursor: pointer;
+}
+
+.todo-item-name input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin: 0px 6px;
+}
+
+.add-item-btn {
+    width: 54px;
+}
+
+.add-item-input {
+    margin-left: 5px;
+    padding: 1px 2px;
+    min-width: 490px;
+}
+
+.todos-container {
+    width: 600px;
+    min-height: 300px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.selected {
+    font-weight: bold;
+}
+
+.filter-text {
+    display: inline-block;
+    margin: 0px 5px;
+    cursor: pointer;
+} 
+
+h1 {
+    color: rgba(192,192,192, 0.8);
+    text-shadow: 1px 4px 6px #def, 0 0 0 #000, 1px 4px 6px #def;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.list-group-item button {
+    margin-right: 4px;
+    border: none;
+    color: #808080;
+}
+
+.clear-btn {
+    font-size: 14px;
+}
+
+.items-remaining {
+    margin-right: 100px;
+}
+
+.new-item-form {
+    margin-bottom: 10px;
+}
+.action-buttons {
+    text-decoration: none;
+}

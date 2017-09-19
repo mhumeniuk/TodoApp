@@ -1,0 +1,24 @@
+{
+  "name": "DNV.GL.Todo",
+  "version": "0.0.1",
+  "description": "Simple todo app",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Michael Humeniuk miha.000@gmail.com",
+  "license": "BSD",
+  "babel": {
+    "stage": 0
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "expose-loader": "^0.7.1",
+    "webpack": "^1.12.9"
+  },
+  "dependencies": {
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
